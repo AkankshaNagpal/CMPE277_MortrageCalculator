@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ea601f">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Home Loan($)"
+        android:textAppearance="?android:textAppearanceSmall"
+        android:textColor="#000000" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:textAppearance="?android:textAppearanceSmall"
+        android:id="@+id/etHomeLoan"
+        android:hint="Enter loan amount"
+        android:background="#cfcfcf" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Down Payment($)"
+        android:textAppearance="?android:textAppearanceSmall"
+        android:textColor="#000000" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:textAppearance="?android:textAppearanceSmall"
+        android:id="@+id/etDownPayment"
+        android:hint="Enter down payment"
+        android:background="#cfcfcf" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Term(Years)"
+        android:textAppearance="?android:textAppearanceSmall"
+        android:textColor="#000000" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:textAppearance="?android:textAppearanceSmall"
+        android:id="@+id/etTerm"
+        android:hint="Enter terms in years"
+        android:textColor="#000000"
+        android:background="#cfcfcf" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Interest Rate(%)"
+        android:textAppearance="?android:textAppearanceSmall"
+        android:textColor="#000000" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:textAppearance="?android:textAppearanceSmall"
+        android:id="@+id/etInterestRate"
+        android:hint="Enter interest rate"
+        android:background="#cfcfcf" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Propert Tax rate(%)"
+        android:textAppearance="?android:textAppearanceSmall"
+        android:textColor="#000000" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:textAppearance="?android:textAppearanceSmall"
+        android:id="@+id/etPropTaxRate"
+        android:hint="Enter prop tax rate"
+        android:background="#cfcfcf" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculate"
+        android:id="@+id/btnCalculate"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reset"
+        android:layout_marginTop="10dp"
+        android:id="@+id/btnReset"
+        android:layout_gravity="center_horizontal"
+        />
+
+
+</LinearLayout>

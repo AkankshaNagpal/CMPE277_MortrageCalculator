@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#010101">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Here is your result!"
+        android:layout_gravity="center"
+        android:layout_marginLeft="0dp"
+        android:textAppearance="?android:textAppearanceMedium"
+        style="@android:style/ButtonBar"
+        android:textAlignment="center" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Monthly Payment Amount"
+        android:layout_marginTop="20dp"
+        android:textAppearance="?android:textAppearanceSmall"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textAppearance="?android:textAppearanceSmall"
+        android:id="@+id/tvMonPayAmount"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Total Interest Paid"
+        android:textAppearance="?android:textAppearanceSmall"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textAppearance="?android:textAppearanceSmall"
+        android:id="@+id/tvTotalInterest"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total tax paid"
+        android:layout_marginTop="20dp"
+        android:textAppearance="?android:textAppearanceSmall"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textAppearance="?android:textAppearanceSmall"
+        android:id="@+id/tvTotalTax"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pay Off date"
+        android:layout_marginTop="20dp"
+        android:textAppearance="?android:textAppearanceSmall"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textAppearance="?android:textAppearanceSmall"
+        android:id="@+id/tvPayoffdate"
+        android:textColor="#ffffff" />
+
+</LinearLayout>
